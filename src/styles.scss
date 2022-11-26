@@ -1,0 +1,16 @@
+$primary-color: white;
+$bg: black;
+h1 {
+  color: $primary-color;
+  background-color: $bg;
+}
+
+.app{
+  &__block{
+    width: 300px;
+    height: 60px;
+    background-color: rgba(103, 137, 85, 0.99);
+    border-radius: 4px;
+    margin: 4px;
+  }
+}
